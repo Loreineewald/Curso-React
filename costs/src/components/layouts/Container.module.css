@@ -1,0 +1,20 @@
+.container {
+    width: 1200px; /* LARGURA MÁXIMA */
+    display: flex; /*POSICIONAR OS ELEMENTOS MAIS FÁCIL */
+    justify-content: space-between; /* ESPAÇAR OS ELEMENTOS DE FORMA IGUAL NA HORIZONTAL */
+    margin: 0 auto; /* CENTRALIZAR NA TELA */
+    flex-wrap: wrap; /* QUANDO OS ELEMENTOS FILHOS ULTRAPASSAREM A LARGURA DE 1200px, VÃO PARA BAIXO CRIANDO NOVA LINHA */
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
